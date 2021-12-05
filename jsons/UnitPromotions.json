@@ -1,0 +1,6 @@
+[
+	{
+		"name": "Undead",
+		"uniques": ["Undead", "Uncapturable", "[-10]% Strength <vs [Military] units>","May capture killed [Military] units","[-20] HP when healing"]
+	}
+]

@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Undead Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "The Fallen",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 6,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Lich Guard",
+		"unitType": "Sword",
+		"uniqueTo": "The Fallen",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 50,
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Lich Knight",
+		"unitType": "Mounted",
+		"uniqueTo": "The Fallen",
+		"replaces": "Horseman",
+		"requiredResource": "Horses",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-20]% strength <vs cities>"]
+		"upgradesTo": "Knight",
+		"attackSound": "horse"
+	}
+]

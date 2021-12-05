@@ -1,0 +1,52 @@
+[
+	{
+		"name": "The Fallen",
+		"leaderName": "Lich King Urzifel",
+		"adjective": ["Undead"],
+		"preferredVictoryType": "Domination",
+		"style": "Undead",
+		
+		"startIntroPart1": "Welcome to the heart of your future undead empire Lich King Urzifel",
+		"startIntroPart2": "Let us commence the merge between the living and the undead under your glorious banner, there will be no end to the crusade until only we remain, it is a monumentous task but we all trust that you shall unite this world through glorious warfare",
+		
+		"declaringWar": "All flesh shall become one, you are not an exception",
+		"attacked": "Your troops shall march against you under our unholy banner",
+		"defeated": "We will rise again...",
+		"introduction": "Let us be united in the afterlife, mortal",
+		
+		"neutralHello": "Greetings",
+		"neutralLetsHearIt": "What do you propose?",
+		"neutralNo": "Unacceptable",
+		"neutralYes": "It shall suffice",
+
+		"hateHello": "Are you here for pity, or mercy?",
+		"hateLetsHearIt": "Spit it out before I rip off your jaw",
+		"hateNo": "Absolutely not!",
+		"hateYes": "Okay...",
+		
+		"afterPeace": "Peace is temporary, but the afterlife is eternal",
+		"tradeRequest": "Does this satisfy your greed, mortal?",
+		"outerColor": [190,190,190],
+		"innerColor": [0,0,0],
+		"uniqueName": "Rise from your grave",
+		"uniques": [
+		"67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
+		"[-50]% maintenance costs for [All] units", "[All] units gain the [Undead] promotion"],
+		"uniqueName": "Endless Hands, Endless Production",
+		"uniques": [
+		"[+1 Production] per [3] population in all cities",
+		"uniques": [
+		"[+2 Food] per [2] population in all cities",
+		"Double quantity of [Iron] produced",
+		"Double quantity of [Horses] produced"], 
+		"cities": [
+		"Necropolis",
+		"Rot",
+		"Decay",
+		"Pestilence",
+		"Disease",
+		"Death",
+		"Blight",
+		"Atrophy"]
+	},
+]

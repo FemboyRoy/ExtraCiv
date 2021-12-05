@@ -1,0 +1,81 @@
+[
+	{
+		"name": "Ancient Crypt",
+		"replaces": "Temple",
+		"uniqueTo": "The Fallen",
+		"maintenance": 0,
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"faith": 4,
+		"happiness": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Armaments Supplier",
+		"hurryCostModifier": 20,
+		"replaces": "Barracks",
+		"uniqueTo": "The Fallen",
+		"maintenance": 1,
+		"production": 1,
+		"uniques": ["New [Military] units start with [20] Experience [in this city]", "Destroyed when the city is captured"],
+	},
+	{
+		"name": "Bone Walls",
+		"replaces": "Walls",
+		"cost": 60,
+		"uniqueTo": "The Fallen",
+		"cityStrength": 8,
+		"cityHealth": 150,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Scriptures of the Damned",
+		"replaces": "Library",
+		"uniqueTo": "The Fallen",
+		"hurryCostModifier": 25,
+		"gold": 3,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Faith] per [4] population [in this city]",
+		"Hidden when religion is disabled"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Corpse Shrine",
+		"replaces": "Monument"
+		"uniqueTo": "The Fallen",
+		"culture": 3,
+		"cost": 25,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Lich King's Throne",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"uniqueTo": "The Fallen",
+		"production": 4,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 3,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Undead Rift",
+		"isNationalWonder": true,
+		"production": 4,
+		"science": 2,
+		"gold": 2,
+		"cityStrength": 2,
+		"cost": 120,
+		"uniqueTo": "The Fallen",
+		"requiredBuilding": "Lich King's Throne",
+		"quote": "'Only once the realms of the dead and the living are one, there will be peace",
+		"uniques": ["Gain a free [Armaments Supplier] [in this city]", "Free [Lich Guard] appears"]
+	}
+]
